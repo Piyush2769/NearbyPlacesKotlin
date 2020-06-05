@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/actionMarket"
+        android:enabled="true"
+        android:title="Market"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/actionSchool"
+        android:enabled="true"
+        android:title="School"
+        android:icon="@drawable/ic_baseline_school_24"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/actionRestaurant"
+        android:enabled="true"
+        android:title="Restaurant"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/actionHospital"
+        android:enabled="true"
+        android:title="Market"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        app:showAsAction="ifRoom"/>
+
+</menu>
